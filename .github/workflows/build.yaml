@@ -20,5 +20,5 @@ jobs:
 
       - name: Compile Programs.
         run: |
-          gcc -o functionpointers functionpointers/main.checkout
-          gcc -o bitflags bitflags/main.c
+          gcc -o functionpointers/main functionpointers/main.checkout
+          gcc -o bitflags/main bitflags/main.c
