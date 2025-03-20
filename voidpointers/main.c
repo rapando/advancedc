@@ -34,7 +34,7 @@ int main() {
 	// printf("%d\n", *p); this fails because the compiler does not know the type/size of data referenced by this pointer.
 	printf("%d\n", *(int*)p); // we need to specify the type/size of data referenced by the pointer.
 
-	int xs[5] = {1,2,3,4,5};
+	int xs[5] = {1'000,2'342,3'432,4'453,5'322};
 	for (int i = 0; i < 5; i++)
 		printf("%4d", xs[i]);
 	printf("\n-----\n");
