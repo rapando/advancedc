@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        folder: [functionpointers, bitflags]
+        folder: [functionpointers, bitflags, voidpointers]
 
     steps:
       - name: Checkout
